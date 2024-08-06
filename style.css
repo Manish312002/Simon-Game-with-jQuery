@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(130, 151, 255);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 5px 0 10px 0;
+}
+
+h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}   
+
+.buttons {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+
+button{
+    border-radius: 10px;
+    border: 5px solid rgb(112, 112, 112);
+}
+
+.red {
+    color: red;
+    background: red;
+}
+
+.yellow {
+    color: yellow;
+    background: yellow;
+}
+
+.green {
+    color: green;
+    background: green;
+}
+
+.blue {
+    color: blue;
+    background: blue;
+}
+
+.pressed {
+    opacity: 0.5;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+.gameOver {
+    background: rgb(196, 0, 0);
+    opacity: 0.8;
+}
